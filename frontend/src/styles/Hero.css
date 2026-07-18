@@ -1,33 +1,15 @@
-.container {
-  text-align: center;
-  margin-top: 120px;
-}
-
-h1 {
-  color: #1e3a8a;
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-p {
-  color: #555;
-  font-size: 20px;
-  width: 60%;
-  margin: auto;
-  line-height: 1.6;
-}
-
-button {
+.buttons {
   margin-top: 35px;
-  padding: 12px 28px;
-  font-size: 18px;
+}
+
+.login-btn {
+  margin-left: 20px;
+  background-color: white;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+
+.login-btn:hover {
   background-color: #2563eb;
   color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #1d4ed8;
 }

@@ -1,4 +1,4 @@
-import '../styles/Hero.css';
+import "../styles/Hero.css";
 
 function Hero() {
   return (
@@ -6,11 +6,14 @@ function Hero() {
       <h1>Placement Assistant</h1>
 
       <p>
-        Your one-stop platform to prepare for placements, track your progress,
-        build resumes, and crack interviews.
+        Your AI-powered companion for placement preparation.
+        Prepare smarter, practice better, and get placed confidently.
       </p>
 
-      <button>Get Started</button>
+      <div className="buttons">
+        <button>Get Started</button>
+        <button className="login-btn">Login</button>
+      </div>
     </div>
   );
 }

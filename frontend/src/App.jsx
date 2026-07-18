@@ -6,16 +6,7 @@ import Login from './pages/Login';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
-  return (
-    <>
-      <Navbar />
-
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </>
-  );
+  return <Home />;
 }
 
 export default App;
