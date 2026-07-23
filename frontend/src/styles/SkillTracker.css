@@ -1,0 +1,35 @@
+.skill-container {
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+}
+
+.skill-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.skill-card {
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+.skill-card h2 {
+  margin-bottom: 20px;
+}
+
+.skill-card ul {
+  margin-left: 20px;
+}
+
+.skill-card li {
+  margin-bottom: 10px;
+}
+
+.skill-card h3 {
+  text-align: center;
+  font-size: 32px;
+  color: #2563eb;
+}

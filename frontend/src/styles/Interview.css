@@ -1,0 +1,47 @@
+.interview-container {
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+}
+
+.interview-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.interview-card {
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+.interview-card h2 {
+  margin-bottom: 20px;
+}
+
+.interview-card ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.interview-card li {
+  margin-bottom: 8px;
+}
+
+.interview-card button {
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.interview-card button:hover {
+  background-color: #1d4ed8;
+}
+
+.interview-card p {
+  margin-bottom: 20px;
+}

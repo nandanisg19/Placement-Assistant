@@ -1,0 +1,35 @@
+.roadmap-container {
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+}
+
+.roadmap-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.roadmap-card {
+  padding: 25px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px lightgray;
+}
+
+.roadmap-card h2 {
+  margin-bottom: 20px;
+}
+
+.roadmap-card ul {
+  margin-left: 20px;
+}
+
+.roadmap-card li {
+  margin-bottom: 10px;
+}
+
+.roadmap-card h3 {
+  text-align: center;
+  color: #2563eb;
+  font-size: 30px;
+}
