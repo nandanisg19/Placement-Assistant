@@ -3,6 +3,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import authRoutes from "./routes/authRoutes.js";
 
 // Use Google DNS for MongoDB SRV lookup
 dns.setServers(["8.8.8.8", "8.8.4.4"]);
@@ -13,6 +14,9 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+
+// Auth routes
+app.use("/api/auth", authRoutes);
 
 app.get("/", (req, res) => {
   res.send("🚀 Placement Assistant Backend Running...");
