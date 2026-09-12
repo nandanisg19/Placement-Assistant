@@ -1,30 +1,87 @@
 import "../styles/Features.css";
+import {
+  FaFileAlt,
+  FaBrain,
+  FaUserTie,
+  FaChartLine,
+  FaRoad,
+  FaBuilding,
+} from "react-icons/fa";
 
 function Features() {
+  const features = [
+    {
+      icon: <FaFileAlt />,
+      title: "Resume Analyzer",
+      description:
+        "Analyze your resume and improve your ATS score for better shortlisting.",
+    },
+    {
+      icon: <FaBrain />,
+      title: "Aptitude Practice",
+      description:
+        "Practice aptitude questions with explanations and company patterns.",
+    },
+    {
+      icon: <FaUserTie />,
+      title: "Interview Preparation",
+      description:
+        "Prepare HR and Technical interview questions with confidence.",
+    },
+    {
+      icon: <FaChartLine />,
+      title: "Skill Tracker",
+      description:
+        "Track your daily progress and monitor your placement preparation.",
+    },
+    {
+      icon: <FaRoad />,
+      title: "Placement Roadmap",
+      description:
+        "Follow a structured roadmap to become placement ready.",
+    },
+    {
+      icon: <FaBuilding />,
+      title: "Company Preparation",
+      description:
+        "Access company-specific interview experiences and questions.",
+    },
+  ];
+
   return (
-    <div className="features-container">
-      <h2>Our Features</h2>
+    <section className="features">
 
-      <div className="feature-box">
-        <h3>AI Resume Analyzer</h3>
-        <p>Get suggestions to improve your resume.</p>
+      <div className="section-heading">
+
+        <h2>Everything You Need</h2>
+
+        <p>
+          One platform for complete placement preparation.
+        </p>
+
       </div>
 
-      <div className="feature-box">
-        <h3>Interview Preparation</h3>
-        <p>Practice technical and HR interview questions.</p>
+      <div className="feature-grid">
+
+        {features.map((feature, index) => (
+
+          <div className="feature-card" key={index}>
+
+            <div className="feature-icon">
+              {feature.icon}
+            </div>
+
+            <h3>{feature.title}</h3>
+
+            <p>{feature.description}</p>
+
+          </div>
+
+        ))}
+
       </div>
 
-      <div className="feature-box">
-        <h3>Placement Roadmap</h3>
-        <p>Follow a structured roadmap for placement preparation.</p>
-      </div>
-
-      <div className="feature-box">
-        <h3>Aptitude Practice</h3>
-        <p>Improve your problem-solving and aptitude skills.</p>
-      </div>
-    </div>
+    </section>
   );
 }
 
